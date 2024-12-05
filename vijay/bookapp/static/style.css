@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(77, 74, 74);
+    
+}
+
+.book-cover {
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 5px 10px 15px rgb(18, 18, 18);
+}
+
+.best-seller {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #0c0c0c;
+    margin-top: 10px;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: #503D33;
+    margin: 20px 0;
+}
+
+.subtitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    color: #494b48;
+    margin-bottom: 50px;
+}
+
+
+.man img {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    bottom: 100px;
+    left: calc(50% - 20px);
+}
+
+.author {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom:0;
+    left: calc(25% - 1px);
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    color: #510cac;
+    margin-bottom: 30px;
+    
+}
